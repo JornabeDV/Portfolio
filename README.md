@@ -32,6 +32,8 @@ I am a passionate software developer with a history of successful startups and a
 <h1>📌 Contact </h1>
 
 How to reach me jorgebejarosa@gmail.com
+<p align="left">
 <a href="https://linkedin.com/in/jorge nahuel beja rosa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jorge nahuel beja rosa" height="30" width="40" /></a>
+</p>
 
 
