@@ -20,6 +20,7 @@
     font-size: 18px;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: center;
 }
 
 form {
@@ -91,11 +92,11 @@ form {
 }
 
 .contact-info {
-    margin: 4.8rem auto 0;
+    margin-top: 10rem;
     font-family: "poppins", sans-serif;
     font-size: 1.5rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
 }
 
@@ -104,12 +105,22 @@ form {
     text-decoration: none;
     letter-spacing: .2rem;
     text-transform: uppercase;
-   
+    margin:none
 }
-
-.linkedin a {
-    text-decoration: none;
+.linkedin-icon{
+    font-size: 4rem;
+    cursor: pointer;
+}
+.linkedin-icon a:hover{
     color: rgba(255, 255, 255, 0.3);
+}
+.info {
+    width: 580px;
+}
+.info a{
+    text-decoration: none;
     letter-spacing: .2rem;
     margin-top: 10rem;
+    color: rgba(255, 255, 255, 0.3);
+
 }

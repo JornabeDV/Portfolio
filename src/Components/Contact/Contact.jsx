@@ -1,4 +1,7 @@
 import './Contact.css'
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
 
 
 const Contact = () => {
@@ -9,7 +12,7 @@ const Contact = () => {
                     <div>
                         <h5>CONTACT</h5>
                         <h1>I'd Love To Hear From You.</h1>
-                        <p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+                        <p className="lead">I will be happy to answer any questions you may have for me!</p>
                     </div>
                 </div>
 
@@ -31,19 +34,25 @@ const Contact = () => {
 
 
                 <div className="contact-info">
-                    <div className='linkedin'>
+                    <div className='info'>
+                        <a href="https://www.linkedin.com/in/jorge-nahuel-beja-rosa/" className='linkedin-icon'>
+                            <FaLinkedinIn />
+                        </a>
                         <h5>Where to find me</h5>
-                        <a href="https://www.linkedin.com/in/jorge-nahuel-beja-rosa/">Linkedin</a>
                     </div>
 
-                    <div>
+                    <div className='info'>
+                        <a href="https://www.linkedin.com/in/jorge-nahuel-beja-rosa/" className='linkedin-icon'>
+                            <MdEmail />
+                        </a>
                         <h5>Email Me At</h5>
-                        <a>jorgebejarosa@gmail.com</a>
                     </div>
 
-                    <div>
+                    <div className='info'>
+                        <a href="https://www.linkedin.com/in/jorge-nahuel-beja-rosa/" className='linkedin-icon'>
+                            <FaPhone />
+                        </a>
                         <h5>Call Me At</h5>
-                           <a>Mobile: (+54) 299-5249409</a> 
                     </div>
                 </div>
             </section>
