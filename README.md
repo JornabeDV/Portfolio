@@ -1,4 +1,6 @@
-📌 My Portfolio 👨‍💻
+📌 My Portfolio 👨‍💻 
+
+📌 Deploy: https://jornabe-dv-portfolio.netlify.app/
 
 📌 Demo
 
