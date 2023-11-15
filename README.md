@@ -20,7 +20,7 @@
 
 <h1>📌 Funcionalidades </h1>
 
-- Portafolio de proyectos con descripciones y enlaces
+![image](https://github.com/JornabeDV/Portfolio/assets/103864663/eb44fe12-fd36-4896-8da0-bec71030d2b6) Portafolio de proyectos con descripciones y enlaces
 - Sobre mí
 - Experiencia laboral o educativa
 - Contacto o formulario de contacto
