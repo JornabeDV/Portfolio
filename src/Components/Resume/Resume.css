@@ -98,16 +98,23 @@
 #resume .timeline-content h4 {
 	position: relative;
 	padding-bottom: 1.8rem;
-	
+	color:#313131
 }
 
 #resume .timeline-content p {
 	font-size: 18px;
+	padding-right: 10rem;
+
+
 }
 
 #resume .timeline-content a {
 	text-decoration: none;
 	color:#313131
+}
+
+#resume .timeline-content a:hover {
+	color: #FF0077;
 }
 
 #resume .timeline-content h4::after {

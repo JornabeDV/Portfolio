@@ -8,7 +8,7 @@ const Resume = () => {
 				<div className="resume-header">
 					<h5>RESUME</h5>
 					<h1>More of my credentials.</h1>
-					<p className="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+					<p className="lead">With my FullStack approach, I not only have the ability to design and develop attractive and intuitive applications, but also to ensure that they work efficiently and adapt perfectly to the needs of my clients and users.</p>
 				</div>
 
 				<div>
