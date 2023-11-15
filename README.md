@@ -27,7 +27,7 @@
 
 <h1>📌 Autor </h1>
 
-I am a passionate software developer with a history of successful startups and an unwavering dedication to action. My focus on challenges and constant search for new experiences has led me to a constantly growing career.
+I am Jorge! , a passionate software developer with a history of successful startups and an unwavering dedication to action. My focus on challenges and constant search for new experiences has led me to a constantly growing career.
 
 <h1>📌 Contact </h1>
 
