@@ -10,7 +10,7 @@
 ![image](https://github.com/JornabeDV/Portfolio/assets/103864663/ccd200ff-e9e8-4f60-a08e-ffe9eb33e80f)
 ![image](https://github.com/JornabeDV/Portfolio/assets/103864663/57d93366-77b6-4ca1-9f44-9c52ab1d74a5)
 
-<h1>📌 Tecnologías Utilizadas </h1>
+<h1>📌 Technologies </h1>
 
 - HTML5
 - CSS3
@@ -18,19 +18,19 @@
 - React
 - Node.js
 
-<h1>📌 Funcionalidades </h1>
+<h1> Features </h1>
 
-- Portafolio de proyectos con descripciones y enlaces
-- Sobre mí
-- Experiencia laboral o educativa
-- Contacto o formulario de contacto
-- Blog (si tienes uno)
+- Project portfolio with descriptions and links
+- About me
+- Work or educational experience
+- Contact or contact form
 
 <h1>📌 Autor </h1>
 
-Información sobre ti como autor del proyecto/portfolio.
+I am a passionate software developer with a history of successful startups and an unwavering dedication to action. My focus on challenges and constant search for new experiences has led me to a constantly growing career.
 
-<h1>📌 Contacto </h1>
+<h1>📌 Contact </h1>
 
-Cómo pueden los visitantes o colaboradores contactarte para realizar consultas o colaboraciones.
+How to reach me jorgebejarosa@gmail.com
+
 

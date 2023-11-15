@@ -13,7 +13,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form>
+                <form action="https://getform.io/f/70822cf8-bafa-4698-9822-46d4eb9a7e87" method="POST">
                     <div className="form-field">
                         <input name="contactName" type="text" id="contactName" placeholder="Name" minLength={2} required />
                     </div>
