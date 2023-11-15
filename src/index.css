@@ -1,0 +1,16 @@
+html, body {
+	height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  background: #151515;
+  font-family: "lora-regular", serif;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: #6e6e6e;
+}
+
+#root {
+  height: 100%;
+}
