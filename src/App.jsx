@@ -9,35 +9,23 @@ import Contact from './Components/Contact/Contact';
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 function App() {
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  const handleScroll = () => {
-    // Aquí podrías agregar tu lógica para animaciones al hacer scroll
-  };
-
   return (
-    <>
+    <div>
       <NavBar />
-      <Element name="home" className="element">
-        <Home />
-      </Element>
-      <Element name="about" className="element">
+
+      <Home />
+
+
         <About />
-      </Element>
-      <Element name="resume" className="element">
+
+
         <Resume />
-      </Element>
-      <Element name="contact" className="element">
+
+
         <Contact />
-      </Element>
+
       <Footer />
-    </>
+    </div>
   );
 }
 

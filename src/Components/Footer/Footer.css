@@ -9,6 +9,7 @@ footer a:visited {
     color: #FFFFFF;
 }
 
+
 footer a:hover,
 footer a:focus {
     color: #FF0077;
@@ -85,7 +86,6 @@ footer .copyright span:last-child::after {
     text-align: center;
     background: #cc005f;
     color: #FFFFFF;
-    text-align: center;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -100,4 +100,23 @@ footer .copyright span:last-child::after {
 
 #go-top a:hover {
     background: #000000;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 15px;
+    }
+    .footer-complete {
+        display: grid;
+    }
+    .copyright {
+        display: grid;
+    }
+    #go-top a {
+        height: 3.6rem;
+        width: 3rem;
+        line-height: 4.0rem;
+
+    }
+
 }

@@ -7,13 +7,12 @@ const About = () => {
 
             <div>
                 <h5>ABOUT</h5>
-                <h1 className='aboutMe'>Let me introduce myself.</h1>
+                <h1 className='about-me'>Let me introduce myself.</h1>
                 <div className="intro-info">
                     <img className="img-CV" src={ImageCV} alt="Profile Picture" />
                     <p className="lead">I am a passionate software developer with a history of successful startups and an unwavering dedication to action. My focus on challenges and constant search for new experiences has led me to a constantly growing career.</p>
                 </div>
             </div>
-
 
             <div className="about-content">
                 <div className="profile">

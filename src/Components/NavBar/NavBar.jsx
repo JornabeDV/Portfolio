@@ -30,7 +30,6 @@ const NavBar = () => {
                     <div className="logo">MENU</div>
                 </div>
             </div>
-
         </header>
 
     )
