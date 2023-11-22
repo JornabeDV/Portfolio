@@ -37,7 +37,7 @@ const About = () => {
                             <a href='https://jornabe-dv-portfolio.netlify.app/'>Jornabe DV Portfolio</a>
                         </li>
                         <li>
-                        <div className="span-div"><span>Email:</span></div>
+                            <div className="span-div"><span>Email:</span></div>
                             <a>jorgebejarosa@gmail.com</a>
                         </li>
                     </ul>

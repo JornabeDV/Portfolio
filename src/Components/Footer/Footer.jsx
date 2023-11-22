@@ -2,16 +2,40 @@ import './Footer.css'
 import { FaLongArrowAltUp } from "react-icons/fa";
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from "react-icons/fa";
+import { useState,useEffect } from 'react';
 
 
 const Footer = () => {
+    const [showScroll, setShowScroll] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const handleScroll = () => {
+        const scrollTop = document.documentElement.scrollTop;
+        if (scrollTop > 200) { 
+            setShowScroll(true);
+        } else {
+            setShowScroll(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <div>
             <footer>
                 <div className="row">
-
                     <div className="">
-
                         <ul className="footer-social">
                             <li>
                                 <a href='https://github.com/JornabeDV'>
@@ -24,7 +48,6 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-
                     </div>
 
                     <div className="col-eight tab-full">
@@ -34,18 +57,14 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div id="go-top">
-                        <a class="smoothscroll" title="Back to Top" href="#top">
+                    <div id="go-top" style={{ display: showScroll ? 'block' : 'none' }}>
+                        <a className="smoothscroll" title="Back to Top" onClick={scrollToTop} href="#top">
                             <FaLongArrowAltUp />
                         </a>
                     </div>
 
                 </div>
             </footer>
-
-            <div id="preloader">
-                <div id="loader"></div>
-            </div>
         </div>
     )
 }
