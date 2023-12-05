@@ -1,4 +1,3 @@
-// import background from "../../assets/intro-bg.jpg";
 import "./Home.css";
 
 const Home = () => {
