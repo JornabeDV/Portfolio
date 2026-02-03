@@ -1,5 +1,5 @@
 #resume {
-  padding-top: 8rem;
+  padding-top: 8  rem;
   padding-bottom: 12rem;
   background-color: #ebebeb;
   font-family: "poppins", sans-serif;
@@ -42,8 +42,20 @@
   font-size: 20px;
 }
 
-.p-information {
+.title-proyect {
+  display: grid;
+}
+
+.p-information1 {
   padding-right: 10rem;
+  color:black
+}
+.p-information2 {
+  color:#888888
+}
+
+.p-information3 {
+  padding-top: 0;
 }
 
 #resume .timeline-wrap {

@@ -17,87 +17,149 @@ const Resume = () => {
 
         <div>
           <div className="title-work">
-            <h2>Proyect Experience</h2>
+            <h2>Experience</h2>
           </div>
 
-            <div className="timeline-wrap">
-              <div className="timeline-block">
-                <div className="timeline-header">
-                  <h3>Frontend Developer</h3>
-                  <p>Oct 2023 - Present</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>
-                    <a href="https://tnt-market.vercel.app/">TNT-Market</a>
-                  </h4>
-                  <p className="p-information">
-                    Website created to report in real-time information on
-                    different financial and stock market quotes obtained from
-                    the consumption of external APIs and their implementation
-                    through React, Redux, Typescript, MongoDB technologies.
-                  </p>
-                </div>
+          <div className="timeline-wrap">
+            <div className="timeline-block">
+              <div className="timeline-header">
+                <h3>FullStack Developer</h3>
+                <p>Sep 2025 - Present</p>
               </div>
-              <div className="timeline-block">
-                <div className="timeline-header">
-                  <h3>FullStack Developer</h3>
-                  <p>Jun 2023 - Oct 2023</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>
-                    <a href="https://healthplus-henry.netlify.app/">
-                      HealthPlus
-                    </a>
-                  </h4>
-                  <p className="p-information">
-                    Application developed to manage a new way of managing a
-                    health center, through monthly paid subscriptions. Direct
-                    interaction between client and different health specialists.
-                    Complete database development and updated information
-                    dashboard.
-                  </p>
-                </div>
+              <div className="timeline-content">
+                <h4>
+                  <a href="https://www.cplmanager.com/">ModularQ</a>
+                </h4>
+                <p className="p-information">
+                  <ul>
+                    <li>
+                      Built a progressive SaaS (PWA) used internally by
+                      industrial modular construction teams to manage projects,
+                      tasks, operators, and material inventory.
+                    </li>
+                    <li>
+                      Developed a role-based admin dashboard with React and
+                      Next.js 14, including authentication, access control, and
+                      10+ functional modules.
+                    </li>
+                    <li>
+                      Implemented real-time features such as time tracking,
+                      automated cron jobs, reporting dashboards, and a typed
+                      data layer using Prisma and Supabase.
+                    </li>
+                  </ul>
+                </p>
+                <p className="p-information1">
+                  Technologies:{" "}
+                  <span className="p-information2">
+                    React, Next.js 14, TypeScript, Prisma ORM, PostgreSQL,
+                    Supabase (Auth, Database, Storage), Tailwind CSS, Radix UI,
+                    Shadcn/ui, PWA (next-pwa), Vercel Cron Jobs, Recharts
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div className="timeline-block">
+              <div className="timeline-header">
+                <h3>FullStack Developer</h3>
+                <p>Sep 2025 - Present</p>
+              </div>
+              <div className="timeline-content">
+                <h4>
+                  <a href="https://box-plan-app.vercel.app/">Box Plan</a>
+                </h4>
+                <p className="p-information">
+                  <ul>
+                    <li>
+                      A progressive SaaS (PWA) for training and subscription
+                      management built on a B2B2C business model, currently used
+                      by 200+ active users including coaches and athletes.
+                    </li>
+                    <li>
+                      Trainer-focused platform enabling creation and management
+                      of training plans, progress tracking, monthly calendars,
+                      and subscription-based monetization.
+                    </li>
+                    <li>
+                      Integrated Mercado Pago API with recurring subscriptions
+                      and Split Payments, enabling automatic revenue
+                      distribution between the platform and coaches.
+                    </li>
+                    <li>
+                      Mobile-first user experience with installable PWA support,
+                      dark/light mode, and role-based dashboards (admin, coach,
+                      student).
+                    </li>
+                    <li>
+                      Core features for athletes including an interactive forum,
+                      leaderboard, CrossFit timer, and 1RM calculator.
+                    </li>
+                    <li>
+                      Administrative panel for managing users, subscriptions,
+                      and global metrics, significantly optimizing operational
+                      workflows.
+                    </li>
+                    <li>
+                      Modern UI built with React and Next.js 14 (App Router),
+                      following responsive design and UX best practices.
+                    </li>
+                    <li>
+                      Scalable B2B2C architecture with coach profiles, tiered
+                      plans (Starter, Growth, Enterprise), and automated
+                      commission calculations.
+                    </li>
+                  </ul>
+                </p>
+                <p className="p-information1">
+                  Technologies:{" "}
+                  <span className="p-information2">
+                    React, Next.js 14, TypeScript, Prisma ORM, PostgreSQL
+                    (Neon), NextAuth, MercadoPago API, Tailwind CSS, Radix UI,
+                    Shadcn/ui, Lucide React, React Hook Form, PWA
+                  </span>
+                </p>
               </div>
 
               <div className="timeline-block">
                 <div className="timeline-header">
                   <h3>FullStack Developer</h3>
-                  <p>Jan 2023 - May 2023</p>
+                  <p>Mar 2023 - Sep 2025</p>
                 </div>
                 <div className="timeline-content">
                   <h4>
-                    <a href="https://puertotablas.netlify.app/">
-                      Puerto Tablas
-                    </a>
+                    <a href="https://www.cplmanager.com/">CPL Manager</a>
                   </h4>
                   <p className="p-information">
-                    This web application was to design an electronic commerce,
-                    by implementing some functions such as ordering, payment
-                    gateway, and shopping cart. A database was also created with
-                    Firestore Firebase technology, where the products to be
-                    marketed were stored.
+                    <ul>
+                      <li>
+                        Fullstack Developer on CPL Manager, an esports team
+                        management and strategy game with hundreds of active
+                        users.
+                      </li>
+                      <li>
+                        Built interactive UI using Svelte 5 and Tailwind CSS,
+                        and developed 50+ RESTful APIs with SvelteKit.
+                      </li>
+                      <li>
+                        Designed and optimized a large relational database with
+                        Prisma ORM and PostgreSQL (80+ models), improving
+                        performance with Redis caching and automated cron jobs.
+                      </li>
+                    </ul>
                   </p>
-                </div>
-              </div>
-
-              <div className="timeline-block">
-                <div className="timeline-header">
-                  <h3>FullStack Developer</h3>
-                  <p>Oct 2022 - Dic 2023</p>
-                </div>
-                <div className="timeline-content">
-                  <h4>
-                    <a href="https://mi-videoteca.netlify.app/">Mi Videoteca</a>
-                  </h4>
-                  <p className="p-information">
-                    Page developed to show current movies and be rendered by
-                    consuming an external API, with different functionalities.
-                    The technologies applied were HTML, CSS and Javascript.
+                  <p className="p-information1">
+                    Technologies:{" "}
+                    <span className="p-information2">
+                      Svelte 5, SvelteKit, Node.js, Prisma ORM, PostgreSQL,
+                      Redis, Tailwind CSS, node-cron
+                    </span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
         <div>
           <div className="title-work">
